@@ -8,6 +8,9 @@ package challenge2;
 /**
  *
  * @author anthonyhenry
+ * Checks to see if the second String is a permutation
+ * It is only considered a permutation if it contains the same amount of characters and letters
+ * 
  */
 import java.util.Arrays;
 public class Challenge2 {
