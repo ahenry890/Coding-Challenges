@@ -8,6 +8,8 @@ package challenge1;
 /**
  *
  * @author anthonyhenry
+ * Checks to see if all the characters in the string are unique
+ * First question on Cracking the Coding Interview 6th edition
  */
 public class Challenge1 {
 
@@ -16,9 +18,9 @@ public class Challenge1 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println(isUnique("dog")); 
-        System.out.println(isUnique("dog and cat")); 
-        System.out.println(isUnique("code fun")); 
+        System.out.println(isUnique("dog")); // True
+        System.out.println(isUnique("dog and cat")); // False
+        System.out.println(isUnique("code fun")); // True
     }
     
         public static Boolean isUnique(String word) {
