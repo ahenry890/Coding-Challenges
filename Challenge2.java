@@ -21,7 +21,6 @@ public class Challenge2 {
         System.out.println(permutation("DOG", "DGO")); // True
         System.out.println(permutation("CBA", "DOG")); // False
         System.out.println(permutation("DOG", "DG")); // False
-        
     }
     
        public static Boolean permutation(String a, String b){
